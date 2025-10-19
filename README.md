@@ -195,3 +195,53 @@ Resource-level permissions for fine-grained control
 
 
 CI/CD Pipeline
+
+CI/CD Pipeline - Short List
+Core Stages
+Source - Code commit triggers pipeline
+
+Build - Compile code, resolve dependencies
+
+Test - Unit, integration, security scans
+
+Deploy - Staging → Production environments
+
+Verify - Health checks, monitoring
+
+Key Components
+Version Control - Git (GitHub/GitLab)
+
+CI Platform - Jenkins, GitHub Actions, GitLab CI
+
+Containers - Docker, Kubernetes
+
+Artifact Storage - Container registries
+
+Essential Practices
+Automated Testing - Fail fast on errors
+
+Infrastructure as Code - Terraform, Ansible
+
+Rollback Strategy - Quick recovery from failures
+
+Security Scanning - SAST, DAST, dependency checks
+
+Deployment Strategies
+Blue-Green Deployment
+
+Canary Releases
+
+Rolling Updates
+
+Feature Flags
+
+Benefits
+Faster release cycles
+
+Higher code quality
+
+Reduced manual errors
+
+Quick rollback capability
+
+
