@@ -159,3 +159,38 @@ Minimum/maximum stay requirements
 Advance notice settings
 
 III. Booking & Reservation System
+
+
+API Security Overview
+
+Core Principles
+Zero Trust - Never trust, always verify
+
+Defense in Depth - Multiple security layers
+
+Least Privilege - Minimum access required
+
+Secure by Default - Security as primary design goal
+
+Essential Security Layers
+1. Authentication
+JWT (JSON Web Tokens) for stateless authentication
+
+OAuth 2.0 / OIDC for third-party integration
+
+API Keys for service-to-service communication
+
+Multi-factor Authentication (MFA) for sensitive operations
+
+2. Authorization
+RBAC (Role-Based Access Control) - Permissions by user role
+
+ABAC (Attribute-Based Access Control) - Dynamic permission rules
+
+Scope-based access for OAuth applications
+
+Resource-level permissions for fine-grained control
+
+3. Request Protection
+
+
