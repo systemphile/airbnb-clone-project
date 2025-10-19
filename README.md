@@ -88,3 +88,11 @@ POST /reviews/ - Create a new review
 GET /reviews/{review_id}/ - Retrieve a specific review
 PUT /reviews/{review_id}/ - Update a specific review
 DELETE /reviews/{review_id}/ - Delete a specific review
+
+Database Design
+Entity-Relationship Diagram (ERD) Concept:
+A User can own many Properties. (One-to-Many)
+A User can make many Bookings. (One-to-Many)
+A Property can have many Bookings. (One-to-Many)
+A Property can have many Amenities, and an Amenity can belong to many Properties. (Many-to-Many, resolved by the property_amenity junction table)
+A Property can have many Reviews, and a User can write many Reviews. (A Review connects a User and a Property)
