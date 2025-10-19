@@ -96,3 +96,66 @@ A User can make many Bookings. (One-to-Many)
 A Property can have many Bookings. (One-to-Many)
 A Property can have many Amenities, and an Amenity can belong to many Properties. (Many-to-Many, resolved by the property_amenity junction table)
 A Property can have many Reviews, and a User can write many Reviews. (A Review connects a User and a Property)
+
+Feature Breakdown
+User Management & Authentication
+User Profiles & Roles
+
+Guest/Host role management
+
+Profile information storage
+
+User verification status
+
+Social connections
+
+Authentication & Security
+
+Secure credential storage
+
+Session management
+
+Password reset flows
+
+Multi-factor authentication
+
+II. Property Listings & Management
+Property Core Information
+
+Basic property details
+
+Location data & geospatial indexing
+
+Capacity and room configuration
+
+Pricing structure
+
+Media Management
+
+Multiple image storage
+
+Image ordering and prioritization
+
+Virtual tours/video support
+
+Amenities & Features
+
+Categorized amenity system
+
+Custom property features
+
+Accessibility features
+
+Safety items
+
+Availability & Calendar
+
+Dynamic pricing calendar
+
+Blocked dates management
+
+Minimum/maximum stay requirements
+
+Advance notice settings
+
+III. Booking & Reservation System
